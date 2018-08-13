@@ -1,0 +1,55 @@
+.maincontainer{
+    display: flex;
+    flex-direction: column;
+}
+#picture{
+
+}
+
+div{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.fullContainer{
+    flex-direction: column; 
+}
+
+.searchBarDiv{
+    display: flex;
+    align-content: center;
+}
+
+.searchBar{
+    width:13%;
+}
+
+.collegesContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.colleges1{   
+    height: 2.5%;
+    border: 5px solid black;
+    padding: 25px;
+    margin-top: .5%;
+}
+
+.colleges2{
+    height: 2.5%;
+    border: 5px solid black;
+    padding: 25px;
+    margin-top: .5%;
+}
+@media (max-width:540px){
+    .searchBar{
+        width:70%;
+    }
+    .collegesContainer{
+        display: flex;
+        flex-flow: wrap ;
+    }
+}
